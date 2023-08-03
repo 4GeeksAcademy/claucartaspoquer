@@ -12,18 +12,35 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+  <body class="bg-success">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col">
+          <div class="row container-fluid  ">
+            <div
+              id="carta"
+              class="row g-3 bg-white text-dark rounded-2"
+              style="width: 400px; height: 450px ;"
+            >
+              <h1 id="palo" class="card-title text-start"></h1>
+              <h1
+                id="numero"
+                class="card-title text-center"
+                style="margin-top: 110px"
+              ></h1>
+              <h1
+                id="palo2"
+                class="card-title text-end"
+                style="margin-top: 110px;"
+              ></h1>
+            </div>
+          </div>
+        </div>
+        <div class="col"></div>
       </div>
     </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
